@@ -1,0 +1,43 @@
+/*.blueForSuperButton {*/
+/*  background-color: #3B5998;*/
+/*  color: white;*/
+/*}*/
+
+/*.redForSuperButton {*/
+/*  background-color: #bb2020;*/
+/*  color: white;*/
+/*}*/
+
+.button {
+  overflow: hidden;
+  padding: 5px 24px;
+  border-radius: 3px;
+  border: none;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  cursor: pointer;
+  margin: 20px;
+  background-color: pink;
+}
+
+.red {
+  background-color: #bb2020;
+}
+
+.secondary {
+  color: #dddda1;
+  background-color: #3B5998;
+  border: 1px solid #3b7198;
+  border-radius: 3px;
+}
+
+.default {
+  background: #1e621e;
+}
+
+.disabled {
+  background-color: #dddda1;
+}

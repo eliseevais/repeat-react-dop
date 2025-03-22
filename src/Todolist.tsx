@@ -1,6 +1,19 @@
 import React, {ChangeEvent, KeyboardEvent, useState} from 'react';
-import {FilterValuesType, TasksType} from './App';
 import {Button} from "./components/Button";
+
+type ObjectType = {
+  title: string
+  filter: FilterValuesType
+  tasks: Array<TasksType>
+  students: Array<string>
+}
+export type TasksType = {
+  taskId: string
+  title: string
+  isDone: boolean
+}
+
+export type FilterValuesType = "all" | "active" | "completed";
 
 type PropsType = {
   id: number
